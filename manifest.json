@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Timestamp for SoundCloud (Beta)",
+    "version": "1.0",    
+    "description": "Click on timestamps in description to navigate the track, like on YouTube!",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },  
+    "author": "http://github.com/NeekSandhu",
+    "homepage_url": "http://github.com/NeekSandhu",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://soundcloud.com/*"
+            ],
+            "js": ["src/main.js"],
+            "css": ["src/main.css"],
+            "run_at" : "document_start"
+        }
+    ]
+}
