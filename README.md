@@ -1,5 +1,5 @@
-# Repo creation date checker for Github
-Chrome extension for checking repository creation date on Github
+# YouTube like timestamps for SoundCloud (Beta)
+Navigate podcasts like a pro!
 
 ![preview](http://i.imgur.com/hxSn339.gif "Preview")
 
